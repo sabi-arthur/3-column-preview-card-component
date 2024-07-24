@@ -1,0 +1,142 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+   font-size: 15px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orange{
+    height: 400px;
+    width: 200px;
+    background-color:hsl(31, 77%, 52%) ;
+    color: hsla(0, 0%, 100%, 0.75);
+   margin:30px 0 20px 0 ;
+   font-family: "Lexend Deca", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: weight;
+   font-style: normal;
+   text-align: justify;
+   font-size: 12px;
+   padding-left: 20px;
+  
+}
+
+
+  
+
+#h2{ 
+    color: hsl(0, 0%, 95%);
+}
+
+
+.blue{
+    height: 400px;
+    width: 200px;
+    background-color:hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    margin:30px 0 20px 0 ;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: justify;
+    font-size: 12px;
+    padding-left: 20px;
+   
+}
+
+.green{
+    height: 400px;
+    width: 200px;
+    background-color:hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75);
+    margin:30px 0 20px 0 ;
+    font-family: "Lexend Deca", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    text-align: justify;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+
+.icon {
+    position: absolute;
+    margin-top: 40px; 
+
+   
+}
+
+.icon-container{
+    padding:20px 0 20px 0;
+    
+}
+
+.button-orange{
+     background-color: hsl(0, 0%, 95%);
+     color:hsl(31, 77%, 52%);
+     height: 35px;
+     width: 110px;
+     border-radius: 25px;
+     text-align: center;
+     margin-top: 40%;
+     border: none;
+
+
+}
+.button-blue{
+    background-color: hsl(0, 0%, 95%);
+    color:hsl(184, 100%, 22%);
+    height: 35px;
+    width: 110px;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 40%;
+    border: none;
+
+    
+    }
+    .button-green{
+    background-color: hsl(0, 0%, 95%);
+    height: 35px;
+    width: 110px;
+    border-radius: 25px;
+    color:hsl(179, 100%, 13%);
+    text-align: center;
+    margin-top: 40%;
+    border: none;
+
+    }
+
+.button-orange:hover {
+background-color: hsl(31, 77%, 52%);
+color: #fff;
+border: 2px #fff solid;
+}
+.button-blue:hover{
+background-color: hsl(184, 100%, 22%);
+color: #fff;
+border: 2px #fff solid;
+}
+.button-green:hover {
+background-color: hsl(179, 100%, 13%);
+color: #fff;
+border: 2px #fff solid;
+}
+       
+@media only screen and (max-width: 375px) {
+   
+}
+
+@media only screen and (min-width: 1440px) {
+
+}
+  
+      
+
